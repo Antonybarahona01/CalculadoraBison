@@ -158,7 +158,7 @@ La evaluación es el proceso final en el que se calcula el resultado de la expre
 
 #### Cómo se Realiza la Evaluación
 
-En el archivo `fb1-5.y`, la evaluación se realiza directamente en las reglas gramaticales. Cada regla en el archivo `fb1-5.y` define cómo combinar los resultados de subexpresiones para obtener el resultado final.
+En el archivo `calculadora.y`, la evaluación se realiza directamente en las reglas gramaticales. Cada regla en el archivo `calculadora.y` define cómo combinar los resultados de subexpresiones para obtener el resultado final.
 
 **Explicación de la Evaluación:**
 
@@ -175,7 +175,7 @@ En el archivo `fb1-5.y`, la evaluación se realiza directamente en las reglas gr
 
 El valor de cada operación se almacena en `$$`, que representa el resultado de la regla completa. Este resultado se utiliza en la evaluación de reglas superiores.
 
-La evaluación transforma la estructura del árbol de sintaxis en un resultado numérico. La implementación en `fb1-5.y` maneja cada operación de la expresión matemática de manera directa, utilizando las reglas definidas en el parser para calcular el resultado final.
+La evaluación transforma la estructura del árbol de sintaxis en un resultado numérico. La implementación en `calculadora.y` maneja cada operación de la expresión matemática de manera directa, utilizando las reglas definidas en el parser para calcular el resultado final.
 
 
 
