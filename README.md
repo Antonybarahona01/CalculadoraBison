@@ -79,6 +79,12 @@ Este documento proporciona instrucciones detalladas sobre cómo instalar, config
      ```bash
      ./calculadora
      ```
+### Ejemplos de Ejecucion:
+![Ejemplo1](https://github.com/user-attachments/assets/90648786-9ffa-422f-9b19-1e7a752c1a9b)
+![Ejemplo2](https://github.com/user-attachments/assets/0e0c0ee9-4333-4d2a-bd54-d1c38507bed2)
+
+
+Este fragmento incluye ejemplos de entradas válidas y errores que la calculadora maneja, con capturas de pantalla y descripciones detalladas para facilitar la comprensión de cómo el programa responde a diferentes situaciones.
 
 ## Explicación del Código
 
@@ -97,7 +103,4 @@ El archivo `calculadora.y` define las reglas para el análisis sintáctico. Incl
 
 El comando `gcc` se utiliza para compilar los archivos generados por Flex y Bison y crear un ejecutable llamado `calculadora`. Este ejecutable puede ser utilizado para realizar cálculos matemáticos básicos a través de la línea de comandos.
 
----
-
-Si encuentras algún problema o error durante el proceso, verifica los mensajes de error en la terminal y consulta la documentación de Flex y Bison para obtener más información sobre los posibles problemas.
 
